@@ -1,0 +1,13 @@
+.circles{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, 
+    rebeccapurple 0px,  rebeccapurple 33px,  
+    royalblue 33px,royalblue 66px,
+    green 66px, green 99px, 
+    yellow 99px, yellow 132px, 
+    orange 132px, orange 165px, 
+    red 165px, red 200px);
+
+}

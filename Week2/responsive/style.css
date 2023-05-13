@@ -1,0 +1,32 @@
+.article {
+    width: 70%;
+    height: 500px;
+    background: salmon;
+    display: inline-block;
+    border-radius: 15px;
+  }
+    .sidebar { 
+    width: 25%;
+    height: 500px;
+    background: lightblue;
+    display: inline-block;
+    border-radius: 15px; 
+  }
+
+  @media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+    .article {
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .sidebar {
+        width: 15%;
+    }
+    .article {
+        width: 80%;
+    }
+  }

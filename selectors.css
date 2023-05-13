@@ -1,0 +1,7 @@
+
+/* psudo selectors */
+/* change the hyperlink text color */
+a:hover {
+    color: pink;
+}
+
