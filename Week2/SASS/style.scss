@@ -1,0 +1,31 @@
+$standard-width: 300px;
+$favorite-colour: coral; 
+@mixin italic-bold {
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.movie-card {
+    width: $standard-width;
+    // width: 300px;
+    box-shadow: 1px 1px 5px lightgray;
+    border-radius: 15px;
+    overflow: hidden;
+        img {
+            width: $standard-width;
+        }
+        .movie-info {
+            padding: 10px;
+            h2 {
+                color: $favorite-colour;
+            }
+            p {
+                @include italic-bold();
+            }
+            button {
+                background-color: $favorite-colour;
+                color: white;
+            }
+        }
+}
+
