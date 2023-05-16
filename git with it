@@ -1,0 +1,8 @@
+(add the files ready to commit)
+git add
+
+(commit files.. dur)
+git commit
+
+(push to your repo)
+git push
