@@ -39,14 +39,14 @@ body {
     list-style-type: none;
 }
 
-/* .header-lists {
+.header-lists {
     display: flex;
     justify-content: space-between;
     width: 550px;
     font-weight: 600;
     list-style-type: none;
     /* padding-left: 100px; */
-} */
+}
 
 .top-links a {
     text-decoration: none;
@@ -125,6 +125,7 @@ img {
     }
 }
 
-@media screen and (max-width: 800px) {
-    .header-lists
-}
+/* @media screen and (max-width: 800px) {
+    .header-lists {
+    }
+} */
